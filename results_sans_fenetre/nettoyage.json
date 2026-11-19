@@ -1,0 +1,28 @@
+{
+  "lignes_initiales": 225745,
+  "lignes_supprimees_valeurs_manquantes_ou_infinies": 34,
+  "lignes_supprimees_doublons": 4447,
+  "lignes_finales": 221264,
+  "colonnes_raccourcis_retirees": [
+    "Destination Port",
+    "Fwd Header Length.1"
+  ],
+  "colonnes_constantes_retirees": [
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "CWE Flag Count",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate"
+  ],
+  "n_variables": 66,
+  "part_attaque": 0.5785577409791018,
+  "etiquettes_presentes": {
+    "DDoS": 128014,
+    "BENIGN": 93250
+  }
+}

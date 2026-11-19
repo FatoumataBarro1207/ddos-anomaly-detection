@@ -1,0 +1,43 @@
+{
+  "jeu_de_test": {
+    "lignes": 66380,
+    "part_attaque": 0.5785628201265441
+  },
+  "isolation_forest_(apprise_sur_trafic_normal_seul)": {
+    "precision": 0.858433734939759,
+    "rappel": 0.037104543679208436,
+    "f1": 0.0711344065892924,
+    "taux_fausses_alertes": 0.008400357462019661,
+    "VP": 1425,
+    "FP": 235,
+    "FN": 36980,
+    "VN": 27740,
+    "PR_AUC": 0.7757762201438483,
+    "ROC_AUC": 0.7578725648597988,
+    "seuil": 0.6140446495689704
+  },
+  "random_forest_(supervisee)": {
+    "precision": 0.9999218709307777,
+    "rappel": 0.9997396172373388,
+    "f1": 0.9998307357785503,
+    "taux_fausses_alertes": 0.00010723860589812332,
+    "VP": 38395,
+    "FP": 3,
+    "FN": 10,
+    "VN": 27972,
+    "PR_AUC": 0.9999998140333665,
+    "ROC_AUC": 0.9999997593960889
+  },
+  "top10_variables_random_forest": {
+    "Avg Fwd Segment Size": 0.08460438709294371,
+    "Fwd Packet Length Mean": 0.07008565087836521,
+    "Init_Win_bytes_forward": 0.05873688961451718,
+    "Fwd Packet Length Max": 0.05396916960538203,
+    "act_data_pkt_fwd": 0.05296235397295221,
+    "Subflow Fwd Bytes": 0.05205676704027695,
+    "Avg Bwd Segment Size": 0.051152186412649306,
+    "Bwd Packet Length Mean": 0.04902567115277669,
+    "Bwd Packet Length Max": 0.044998869413138146,
+    "Total Length of Fwd Packets": 0.03917736978292865
+  }
+}

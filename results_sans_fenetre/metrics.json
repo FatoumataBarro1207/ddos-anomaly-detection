@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "test_attack_ratio": null,
+    "variables_retirees_par_l_utilisateur": [
+      "Init_Win_bytes_forward",
+      "Init_Win_bytes_backward"
+    ]
+  },
+  "jeu_de_test": {
+    "lignes": 66380,
+    "part_attaque": 0.5785628201265441
+  },
+  "isolation_forest_(apprise_sur_trafic_normal_seul)": {
+    "precision": 0.8590047393364929,
+    "rappel": 0.03775550058586122,
+    "f1": 0.07233182849874042,
+    "taux_fausses_alertes": 0.008507596067917783,
+    "VP": 1450,
+    "FP": 238,
+    "FN": 36955,
+    "VN": 27737,
+    "PR_AUC": 0.7952650042205128,
+    "ROC_AUC": 0.7753024683192247,
+    "seuil": 0.6241865785756608
+  },
+  "random_forest_(supervisee)": {
+    "precision": 0.9998437255821222,
+    "rappel": 0.9995573493034761,
+    "f1": 0.9997005169338142,
+    "taux_fausses_alertes": 0.00021447721179624664,
+    "VP": 38388,
+    "FP": 6,
+    "FN": 17,
+    "VN": 27969,
+    "PR_AUC": 0.9999663689146769,
+    "ROC_AUC": 0.9999594873275153
+  },
+  "top10_variables_random_forest": {
+    "Fwd Packet Length Mean": 0.0755766110246281,
+    "Fwd Packet Length Max": 0.0754406311344195,
+    "Total Length of Fwd Packets": 0.06988990505080621,
+    "Avg Fwd Segment Size": 0.06691293690860088,
+    "act_data_pkt_fwd": 0.0660158137086333,
+    "Avg Bwd Segment Size": 0.05950910628591034,
+    "Subflow Fwd Bytes": 0.05227461010895508,
+    "Bwd Packet Length Std": 0.042852163109689215,
+    "Bwd Packet Length Mean": 0.04230166441318635,
+    "Fwd IAT Std": 0.03972605667632367
+  }
+}

@@ -1,0 +1,11 @@
+# Jeux de données : ne jamais déposer
+*.csv
+*.zip
+*.pcap
+data/
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
